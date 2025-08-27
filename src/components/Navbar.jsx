@@ -21,15 +21,16 @@ const Navbar = () => {
   return (
     <div className="navbar py-7 flex justify-between">
         <div className="logo">
-            <h1 className="text-2xl md:text-3xl font-bold text-white p-2">Portofolio</h1>
+            <h1 className="text-2xl md:text-3xl font-bold text-gray-400 p-2">Portofolio</h1>
         </div>
         <ul className={`menu flex items-center sm:gap-10 gap-4 md:static fixed left-1/2 -translate-x-1/2 
-          md:-translate-x-0 md:opacity-100 bg-white/30 backdrop-blur-md p-4 rounded-br-2xl 
-          rounded-bl-2xl md:bg-transparent transition-all md:transition-none ${active ? "top-0 opacity-100" : "-top-10 opacity-0"}`}>
-            <li><a href="#" className="sm:text-lg text-base font-medium">Home</a></li>
-            <li><a href="#" className="sm:text-lg text-base font-medium">About</a></li>
-            <li><a href="#" className="sm:text-lg text-base font-medium">Project</a></li>
-            <li><a href="#" className="sm:text-lg text-base font-medium">Contact</a></li>
+            md:-translate-x-0 md:opacity-100 bg-white/30 backdrop-blur-md p-4 rounded-br-2xl 
+            rounded-bl-2xl md:bg-transparent transition-all md:transition-none 
+            ${active ? "top-0 opacity-100" : "-top-10 opacity-0"} z-[1000]`}>
+            <li><a href="#home" className="sm:text-lg text-gray-400 text-base font-medium">Home</a></li>
+            <li><a href="#about" className="sm:text-lg text-gray-400 text-base font-medium">About</a></li>
+            <li><a href="#proyek" className="sm:text-lg text-gray-400 text-base font-medium">Project</a></li>
+            <li><a href="#kontak" className="sm:text-lg text-gray-400 text-base font-medium">Contact</a></li>
         </ul>
     </div>
   )

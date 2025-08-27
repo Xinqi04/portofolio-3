@@ -1,4 +1,4 @@
-import HeroImage from "/assets/hero-img.webp";
+import HeroImage from "/assets/tools/foto2.png";
 
 const Image = {
   HeroImage,
@@ -14,7 +14,8 @@ import Tools5 from "/assets/tools/bootstrap.png";
 import Tools6 from "/assets/tools/js.png";
 import Tools7 from "/assets/tools/nodejs.png";
 import Tools8 from "/assets/tools/github.png";
-import Tools9 from "/assets/tools/ai.png";
+import Tools9 from "/assets/tools/as.png";
+import Tools12 from "/assets/tools/kotlin.png";
 import Tools10 from "/assets/tools/canva.png";
 import Tools11 from "/assets/tools/figma.png";
 
@@ -78,8 +79,8 @@ export const listTools = [
   {
     id: 9,
     gambar: Tools9,
-    nama: "Adobe Illustrator",
-    ket: "Design App",
+    nama: "Android Studio",
+    ket: "Code Editor",
     dad: "900",
   },
   {
@@ -96,62 +97,55 @@ export const listTools = [
     ket: "Design App",
     dad: "1100",
   },
+  {
+    id: 12,
+    gambar: Tools12,
+    nama: "Kotlin",
+    ket: "Language",
+    dad: "1200",
+  },
 ];
 
-import Proyek1 from "/assets/proyek/proyek1.webp";
-import Proyek2 from "/assets/proyek/proyek2.webp";
-import Proyek3 from "/assets/proyek/proyek3.webp";
-import Proyek4 from "/assets/proyek/proyek4.webp";
-import Proyek5 from "/assets/proyek/proyek5.webp";
-import Proyek6 from "/assets/proyek/proyek6.webp";
+import Tenangin1 from "/assets/proyek/Tenangin1.png";
+import Tenangin2 from "/assets/proyek/Tenangin2.png";
+import Tenangin3 from "/assets/proyek/Tenangin3.png";
+import Tenangin4 from "/assets/proyek/Tenangin4.png";
+import Tenangin5 from "/assets/proyek/Tenangin5.png";
+import Tenangin6 from "/assets/proyek/Tenangin6.png";
+import Pouchy1 from "/assets/proyek/Pouchy7.png";
+import Pouchy2 from "/assets/proyek/Pouchy8.png";
+import Pouchy3 from "/assets/proyek/Pouchy9.png";
+import Pouchy4 from "/assets/proyek/Pouchy10.png";
+import DelivYu1 from "/assets/proyek/DelivYu11.png";
+import DelivYu2 from "/assets/proyek/DelivYu12.png";
+import DelivYu3 from "/assets/proyek/DelivYu13.png";
 
 export const listProyek = [
   {
     id: 1,
-    gambar: Proyek1,
-    nama: "Website Sekolah",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "AOS"],
+    gambar: [Tenangin1, Tenangin2, Tenangin3, Tenangin4, Tenangin5, Tenangin6],
+    nama: "Web Tenangin",
+    desk: "Web ini bertujuan mendukung kesehatan mental mahasiswa melalui fitur seperti self -assessment,rekomendasi konselor, journaling, dan chatbot interaktif",
+    tools: ["React", "CSS", "Node js"],
     dad: "200",
+    link: "https://frontend-tenangin.vercel.app/",
   },
   {
     id: 2,
-    gambar: Proyek2,
-    nama: "Company Profile",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "AOS", "Swiper", "Lightbox Gallery"],
-    dad: "300",
+    gambar: [Pouchy1, Pouchy2, Pouchy3, Pouchy4],
+    nama: "Apk Pouchy",
+    desk: "Pouchy: Aplikasi Keuangan Personal untuk Pengelolaan Keuangan Lebih Baik.",
+    tools: ["Kotlin"],
+    dad: "200",
+    link: "https://play.google.com/store/apps/details?id=com.uaspam.pouchy",
   },
   {
     id: 3,
-    gambar: Proyek3,
-    nama: "Web Pernikahan 2.0",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
-    dad: "400",
-  },
-  {
-    id: 4,
-    gambar: Proyek4,
-    nama: "Website Course",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Vite", "ReactJS", "Bootstrap", "AOS"],
-    dad: "500",
-  },
-  {
-    id: 5,
-    gambar: Proyek5,
-    nama: "Web Portfolio",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
-    dad: "600",
-  },
-  {
-    id: 6,
-    gambar: Proyek6,
-    nama: "Company Profile 2.0",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["NextJS", "TailwindCSS", "Framermotion"],
-    dad: "700",
+    gambar: [DelivYu1, DelivYu2, DelivYu3],
+    nama: "Desain Deliv Yu",
+    desk: "DelivYu adalah proyek desain Figma yang dibuat untuk menyederhanakan dan meningkatkan proses manajemen pengiriman bagi bisnis dan individu.",
+    tools: ["UI/UX"],
+    dad: "300",
+    link: "https://www.figma.com/design/J8pgosj8iLjzQhEjhz5PkV/Pemesanan-Makanan?node-id=0-1&node-type=canvas&t=qEVeoDIkEAmt6cqn-0",
   },
 ];
