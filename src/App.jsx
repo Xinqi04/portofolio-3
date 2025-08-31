@@ -30,7 +30,7 @@ function App() {
         <p className="text-base/loose text-gray-400 mb-6">Seorang pengembang web dan machine learning enthusiast yang fokus pada solusi digital modern dan cerdas.
         </p>
         <div className="flex items-center justify-center md:justify-start sm:gap-4 gap-2">
-          <a href="https://drive.google.com/file/d/1SVvg96Pf_D0DPcSgXFGlcRUw85PDlSdh/view" className="bg-sky-500 w-32 text-center p-4 rounded-2xl hover:bg-sky-600">
+          <a href="https://drive.google.com/file/d/1SVvg96Pf_D0DPcSgXFGlcRUw85PDlSdh/view?usp=sharing" className="bg-sky-500 w-32 text-center p-4 rounded-2xl hover:bg-sky-600">
             CV <i className="ri-download-line"></i></a>
           <a href="#proyek" className="bg-zinc-600 w-32 text-center p-4 rounded-2xl hover:bg-zinc-700">
             Project</a>
